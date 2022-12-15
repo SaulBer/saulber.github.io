@@ -120,7 +120,7 @@ input, select, textarea {
 	}
 
 		@media screen and (max-width: 1680px) {
-
+				
 			html {
 				font-size: 14pt;
 			}
@@ -209,7 +209,7 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 2.25rem;
+		font-size: 3rem;
 	}
 
 	h3 {
@@ -7667,7 +7667,7 @@ input, select, textarea {
 			}
 
 			.items.style1.medium > *:nth-child(3n + 1) {
-				border-left-width: 0;
+				border: 0;
 			}
 
 		.items.style1.small > * {
@@ -8601,3 +8601,15 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+			
+		.background-banner {
+			background-image: url('/static/video/weather.gif'); width:100%; background-repeat:no-repeat;
+			height: 100%; background-size: cover;
+					}
+				
+		.background-explodedA {
+			background-image: url('/static/images/exploded.png'); width:100%; background-repeat:no-repeat;
+			height: 100%; background-size: cover;
+					}			
+
+	
